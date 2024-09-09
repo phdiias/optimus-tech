@@ -4,5 +4,7 @@
 </div>
 Fiz esse repositório para separar todos os trabalhos/projetos que fiz no 7DaysOfCode.
 Os projetos estão separados por pastas com os seguintes nomes:
-- Front-End Lógica com JavaScript
-- Front-End HTML e CSS 1
+<ul>
+  <li>Front-End Lógica com JavaScript</li>
+  <li>Front-End HTML e CSS 1</li>
+</ul>
