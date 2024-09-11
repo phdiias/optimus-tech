@@ -17,6 +17,7 @@ body {
   height: 100vh;
 }
 
+/* Cabeçalho/Menu de navegação */
 #nav-bar ul {
   list-style: none;
 }
@@ -32,25 +33,33 @@ body {
   gap: 3.2rem;
 }
 
-.nav-paginas ul {
+.nav-pages ul {
   display: flex;
-
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   gap: 4rem;
 }
 
-.nav-paginas ul li {
+.nav-pages ul li a {
+  text-decoration: none;
   font-size: 1.6rem;
   font-weight: 500;
   color: var(--color-whitegrey);
+  transition: color 0.2s ease-out 0.2s;
 }
 
-.nav-botoes {
+.nav-pages ul li a:hover {
+  color: var(--color-red);
+}
+
+.nav-buttons {
   display: flex;
   gap: 1.2rem;
   border-radius: 0.8rem;
 }
 
-.nav-botoes button {
+.nav-buttons button {
   all: unset;
   font-size: 1.6rem;
   font-weight: 500;
@@ -61,13 +70,17 @@ body {
   padding: 1rem 1.8rem 1rem 1.8rem;
 }
 
-.nav-botoes button:nth-child(2) {
+.nav-buttons button:nth-child(2) {
   border: 0.1rem solid #8e2424;
   color: #ffffff;
   background-color: var(--color-red);
 }
 
+/* Primeira seção da página (Sobre nós)*/
 #about-us {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
   padding: 9.6rem 0;
   display: flex;
   flex-direction: column;
@@ -96,4 +109,44 @@ body {
   font-size: 2rem;
   text-align: center;
   padding-inline: 3.2rem;
+}
+
+/* Segunda seção da página (Métricas e resultados)*/
+#metrics {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.metrics-container {
+  padding: 0 8rem 9.6rem;
+}
+
+.metrics-container-items {
+  padding-inline: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+
+.metric-title {
+  font-weight: 600;
+  font-size: 6rem;
+  color: var(--color-red);
+}
+
+.metric-subtitle {
+  margin-top: 1.2rem;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #101828;
+}
+
+.metric-description {
+  margin-top: 0.8rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: var(--color-whitegrey);
+  text-align: justify;
 }
