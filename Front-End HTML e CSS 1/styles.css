@@ -8,12 +8,13 @@
   font-family: "Inter", sans-serif;
 }
 
-body {
-  height: 100vh;
+:root {
+  --color-red: #8e2424;
+  --color-whitegrey: #667085;
 }
 
-header {
-  padding-inline: 10rem;
+body {
+  height: 100vh;
 }
 
 #nav-bar ul {
@@ -21,9 +22,9 @@ header {
 }
 
 #nav-bar {
-  max-width: 1280px;
-  height: 80px;
-
+  max-width: 1440px;
+  margin: auto;
+  padding: 1.8rem 8rem 1.8rem 8rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +41,7 @@ header {
 .nav-paginas ul li {
   font-size: 1.6rem;
   font-weight: 500;
-  color: #667085;
+  color: var(--color-whitegrey);
 }
 
 .nav-botoes {
@@ -53,7 +54,7 @@ header {
   all: unset;
   font-size: 1.6rem;
   font-weight: 500;
-  color: #667085;
+  color: var(--color-whitegrey);
   cursor: pointer;
   border-radius: 0.8rem;
 
@@ -63,5 +64,36 @@ header {
 .nav-botoes button:nth-child(2) {
   border: 0.1rem solid #8e2424;
   color: #ffffff;
-  background-color: #8e2424;
+  background-color: var(--color-red);
+}
+
+#about-us {
+  padding: 9.6rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+#about-us h1 {
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: var(--color-red);
+  text-align: center;
+  padding-inline: 3.2rem;
+}
+
+#about-us h2 {
+  font-weight: 600;
+  font-size: 4.8rem;
+  text-align: center;
+  padding-inline: 3.2rem;
+}
+
+#about-us p {
+  font-weight: 400;
+  font-size: 2rem;
+  text-align: center;
+  padding-inline: 3.2rem;
 }
