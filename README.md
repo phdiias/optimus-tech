@@ -1,7 +1,15 @@
-<div style="text-align: center;">
+<div align="center">
   <h1>7DaysOfCode</h1>
+</div>
+<div align="center">
   <img src="https://7daysofcode.io/assets/img/background-7days.1720710817.svg" alt="Logo 7DaysOfCode" style="max-width: 100%; height: auto;">
 </div>
+
+<p align="center">
+  <a href="#-descrição">Descrição</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projetos</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+    <a href="#-tecnologias">Tecnologias</a>
+</p>
 
 ## Descrição
 
@@ -15,3 +23,10 @@ O repositório está organizado com cada projeto individual em sua própria past
 - **Front-End HTML e CSS 1**: Projetos relacionados a HTML e CSS, abordando fundamentos e técnicas de design de páginas web.
 
 Cada pasta contém um README específico para o projeto, com detalhes sobre o objetivo, código-fonte e instruções de uso.
+
+## 🚀 Tecnologias
+
+Todos os projetos foram desenvolvidos utilizando algumas dessas linguagens:
+
+- HTML e CSS
+- JavaScript
