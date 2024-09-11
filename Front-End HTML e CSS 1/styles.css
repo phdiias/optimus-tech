@@ -125,7 +125,6 @@ body {
 .metrics-container-items {
   padding-inline: 3.2rem;
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 3.2rem;
 }
