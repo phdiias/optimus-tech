@@ -127,6 +127,12 @@ body {
   display: flex;
   justify-content: space-between;
   gap: 3.2rem;
+  flex-wrap: wrap;
+}
+
+.metrics-container-item {
+  width: 100%;
+  max-width: 280px;
 }
 
 .metric-title {
@@ -143,6 +149,7 @@ body {
 }
 
 .metric-description {
+  width: 100%;
   margin-top: 0.8rem;
   font-weight: 400;
   font-size: 1.6rem;
