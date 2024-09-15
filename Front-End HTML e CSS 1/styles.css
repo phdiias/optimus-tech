@@ -196,7 +196,7 @@ body {
   width: 100%;
   max-width: 12.5rem;
   padding: 0.4rem 1.2rem;
-  margin: 0 auto;
+  align-self: center;
   font-weight: 500;
   font-size: 1.4rem;
   color: var(--color-red);
@@ -207,7 +207,7 @@ body {
 .position-text-subtitle {
   width: 100%;
   max-width: 768px;
-  margin: 0 auto;
+  align-self: center;
   font-weight: 600;
   font-size: 3.6rem;
 }
@@ -395,15 +395,23 @@ body {
 }
 
 @media (max-width: 768px) {
+  /* Métricas */
   .metrics-container-item {
     width: 100%;
     max-width: 250px;
   }
+
+  /* Depoimentos */
+  .quote-and-subheading .quote {
+    font-size: 3rem;
+  }
 }
 
-@media (max-width: 430px) {
+/* Dispositivos móveis */
+@media (max-width: 480px) {
+  /* Métricas */
   .metrics-container {
-    padding: 0 2rem 2rem;
+    padding: 0 1rem 1rem;
     text-align: center;
   }
 
@@ -418,5 +426,45 @@ body {
 
   .metrics-container-item {
     margin: auto;
+    width: 100%;
+    max-width: 400px;
+  }
+
+  /* Carreira/vagas */
+  #open-positions {
+    padding: 9.6rem 1.5rem 6.4rem;
+  }
+
+  .positions-text-container-children {
+    padding-inline: 1.5rem;
+  }
+
+  .position-text-subtitle {
+    width: 100%;
+    max-width: 768px;
+    align-self: center;
+    font-weight: 600;
+    font-size: 3.2rem;
+  }
+
+  .positions-image {
+    display: none;
+  }
+
+  #available-positions {
+    padding-inline: 2rem;
+  }
+
+  /* Depoimentos */
+  #testimonials-container {
+    padding-inline: 1.5rem;
+  }
+
+  #testimonials-content {
+    padding: 3.2rem 1.5rem 3.2rem 1.5rem;
+  }
+
+  .quote {
+    display: none;
   }
 }
