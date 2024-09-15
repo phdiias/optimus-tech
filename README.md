@@ -20,7 +20,7 @@ Este repositório foi criado para centralizar todos os projetos realizados duran
 O repositório está organizado com cada projeto individual em sua própria pasta. Atualmente, as pastas correspondem aos seguintes projetos:
 
 - **Front-End Lógica com JavaScript**: Projetos focados na lógica de programação utilizando JavaScript.
-- **Front-End HTML e CSS 1**: Projetos relacionados a HTML e CSS, abordando fundamentos e técnicas de design de páginas web.
+- **Front-End HTML e CSS (site de vagas)**: Projetos relacionados a HTML e CSS, abordando fundamentos e técnicas de design de páginas web.
 
 Cada pasta contém um README específico para o projeto, com detalhes sobre o objetivo, código-fonte e instruções de uso.
 
