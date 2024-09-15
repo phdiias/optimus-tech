@@ -305,6 +305,80 @@ body {
   color: var(--color-whitegrey);
 }
 
+/* Seção de depoimentos */
+#testimonials {
+  width: 100%;
+  max-width: 1440px;
+  padding-bottom: 9.6rem;
+  margin: auto;
+}
+
+#testimonials-container {
+  width: 100%;
+  max-width: 1280px;
+  padding-inline: 3.2rem;
+  text-align: center;
+  margin: auto;
+}
+
+#testimonials-content {
+  width: 100%;
+  max-width: 1216px;
+  background-color: #c3191908;
+  border-radius: 1.6rem;
+  padding: 6.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.quote-and-subheading,
+#attribution {
+  width: 100%;
+  max-width: 1088px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.quote-and-subheading .subheading {
+  width: 100%;
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--color-red);
+}
+
+.quote-and-subheading .quote {
+  width: 100%;
+  font-weight: 500;
+  font-size: 3.6rem;
+}
+
+#attribution .avatar-and-text .avatar {
+  width: 100%;
+  max-width: 5.6rem;
+  border: 50%;
+}
+
+.text-and-suportting-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.text-and-suportting-text .avatar-name {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #101828;
+}
+
+.text-and-suportting-text .avatar-profession {
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: var(--color-whitegrey);
+}
+
 /* Media Queries*/
 @media (max-width: 1440px) {
   .metrics-container-item {
