@@ -230,6 +230,81 @@ body {
   width: 100%;
 }
 
+#available-positions {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 8rem 9.6rem 8rem;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+
+#design,
+#software-developer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2.4rem;
+}
+
+#design h2,
+#software-developer h2 {
+  width: 100%;
+  max-width: 76.8rem;
+  margin: auto;
+
+  color: #101828;
+  font-weight: 500;
+  font-size: 2rem;
+
+  text-align: left;
+}
+
+.jobs {
+  width: 100%;
+  max-width: 76.8rem;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.jobs-item {
+  width: 100%;
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+  padding: 2.4rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.jobs-item h3 {
+  color: #101828;
+  font-weight: 500;
+  font-size: 1.8rem;
+  text-align: left;
+  text-wrap: wrap;
+}
+
+.salary {
+  display: flex;
+  gap: 2.4rem;
+  text-align: left;
+}
+
+.salary span {
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: var(--color-whitegrey);
+}
+
 /* Media Queries*/
 @media (max-width: 1440px) {
   .metrics-container-item {
