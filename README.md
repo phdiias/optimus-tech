@@ -24,4 +24,4 @@ O layout do projeto foi criado no Figma. Você pode visualizar o design completo
 
 O projeto estará disponível online em breve. Você poderá acessá-lo diretamente pelo GitHub Pages assim que for publicado:
 
-[Visitar Projeto no GitHub Pages](https://seu-usuario.github.io/optimus-tech)
+[Visitar Projeto no GitHub Pages](https://phdiias.github.io/site-de-vagas-ficticias/)
