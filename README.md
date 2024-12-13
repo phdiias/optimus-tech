@@ -1,6 +1,6 @@
 <h1 align="center">Optimus Tech</h1>
 <div align="center">
-  <p>OptimusTech é uma página desenvolvida para o projeto da <a href="hhttps://7daysofcode.io/">7DaysOfCode</a>. Esta página foi criada para uma empresa de TI que deseja atrair novos talentos e apresentar suas oportunidades de contratação.</p>
+  <p>OptimusTech é uma página desenvolvida para o projeto da <a href="https://7daysofcode.io/">7DaysOfCode</a><br> Esta página foi criada para uma empresa de TI que deseja atrair novos talentos e apresentar suas oportunidades de contratação.</p>
 </div>
 
 <p align="center">
